@@ -1,0 +1,32 @@
+.home-heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: clamp(100%, 1rem + 4vw, 67px);
+    font-weight: 700;
+}
+
+.home-typewriter {
+    display: flex;
+    font-size: clamp(100%, 1rem + 2vw, 20px);
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.home-icons {
+    display: flex;
+    gap: 1rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.2rem;
+}
+
+.home-icon {
+    width: 32px;
+    height: 32px;
+}
+
+@media screen and (max-width: 992px) {
+    .home-typewriter {
+        font-size: clamp(100%, 1rem + 2vw, 16px);
+    }
+  }

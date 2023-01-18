@@ -1,0 +1,35 @@
+.projects-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+.projects-heading {
+    font-size: clamp(100%, 1rem + 2vw, 28px);
+    line-height: 2rem;
+    width: 36vw;
+}
+
+.projects-cards {
+    display: flex;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+@media screen and (max-width: 992px) {
+    .projects-cards {
+        justify-content: center;
+    }
+   
+  }
+
+
+@media screen and (max-width: 500px) {
+    .projects-cards {
+        min-width: 50vw;
+    }
+
+}

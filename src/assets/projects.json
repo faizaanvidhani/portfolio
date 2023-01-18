@@ -1,0 +1,58 @@
+[
+    {
+        "title": "Amazon",
+        "skills": ["Java"],
+        "summary": "Drove KillSwitch design and implementation on the Access Engineering team. Reduced containment-to-remediation latency by 98%. Deployed KillSwitch to production using a multi-stage CI/CD pipeline configured by AWS CDK.",
+        "github": "NONE",
+        "url": "NONE",
+        "image": "images/projects/amazon.png"
+    },
+    {
+        "title": "FollowUp",
+        "skills": ["Java", "TypeScript", "React", "Firebase"],
+        "summary": "A symptom-monitoring web application for Parkinson’s patients and neurologists.",
+        "github": "https://github.com/faizaanvidhani/followup/tree/master",
+        "url": "NONE",
+        "image": "images/projects/followup.png"
+    },
+    {
+        "title": "Diversify: A Spotify Recommender",
+        "skills": ["Python", "JavaScript", "Flask", "React", "Spotify API", "NumPy"],
+        "summary": "Recommends the latest Spotify tracks from any country around the world. Leverages the KNN algorithm to rank tracks by similarity to user’s music taste.",
+        "github": "https://github.com/faizaanvidhani/spotify-recommender",
+        "url": "NONE",
+        "image": "images/projects/spotify.png"
+    },
+    {
+        "title": "Skin Cancer Image Segmentation",
+        "skills": ["Python", "TensorFlow"],
+        "summary": "Implemented a U-Net deep learning model consisting of recurrent residual convolutional neural networks. Achieved a 72% accuracy in identifying skin lesions in medical images.",
+        "github": "https://github.com/faizaanvidhani/medical-image-segmentation",
+        "url": "NONE",
+        "image": "images/projects/medical-img.png"
+    },
+    {
+        "title": "Sneaker Central",
+        "skills": ["HTML", "CSS", "JavaScript", "React"],
+        "summary": "An interactive interface for shoe enthusiasts like myself.",
+        "github": "https://github.com/faizaanvidhani/sneaker-central",
+        "url": "https://faizaanvidhani.github.io/sneaker-central",
+        "image": "images/projects/sneaker-central.png"
+    },
+    {
+        "title": "Chinese Restaurant Redesign",
+        "skills": ["HTML", "CSS", "JavaScript"],
+        "summary": "Redesigned a website belonging to a local Chinese restaurant to address flaws in its existing interface.",
+        "github": "https://github.com/faizaanvidhani/chinese-restaurant-redesign",
+        "url": "https://faizaanvidhani.github.io/responsive-redesign/",
+        "image": "images/projects/china-one.png"
+    },
+    {
+        "title": "Shell",
+        "skills": ["C"],
+        "summary": "C shell with a job control system that can execute built-in commands, handle input/output redirects, spawn child processes, run multiple processes in the background, as well as manage processes with signal forwarding.",
+        "github": "NONE",
+        "url": "NONE",
+        "image": "images/projects/shell.png"
+    }
+]

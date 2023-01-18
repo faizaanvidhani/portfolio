@@ -1,0 +1,35 @@
+.home-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 12vw;
+    padding-right: 12vw;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.home-heading-photo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.home-photo {
+    padding-left: 4vw;
+    width: 10rem;
+    height: auto;
+    filter: grayscale(30%);
+}
+
+@media screen and (max-width: 630px) {
+    .home-heading-photo-container {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .home-container {
+        justify-content: center;
+    }
+    
+}
+

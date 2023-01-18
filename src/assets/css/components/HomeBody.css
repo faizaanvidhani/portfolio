@@ -1,0 +1,38 @@
+.home-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-body-text {
+    font-size: clamp(100%, 1rem + 1vw, 18px);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+    max-width: 44vw;
+}
+
+.home-link {
+    font-weight: 700;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 0.2rem;
+    border-radius: 6px;
+    text-decoration: none;
+}
+
+.home-important {
+    font-weight: 700;
+    color: #000000;
+    text-decoration: underline;
+    text-decoration-color: #1400FF;
+    text-decoration-thickness: 0.2rem;
+}
+
+@media screen and (max-width: 630px) {
+    .home-body-text {
+        max-width: 64vw;
+
+    }
+    
+}
+
