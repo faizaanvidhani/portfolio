@@ -20,7 +20,7 @@
         "skills": ["Python", "JavaScript", "Flask", "React", "Spotify API", "NumPy"],
         "summary": "Recommends the latest Spotify tracks from any country around the world. Leverages the KNN algorithm to rank tracks by similarity to user’s music taste.",
         "github": "https://github.com/faizaanvidhani/spotify-recommender",
-        "url": "NONE",
+        "url": "https://faizaanvidhani.github.io/spotify-recommender/.",
         "image": "images/projects/spotify.png"
     },
     {
