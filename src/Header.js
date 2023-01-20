@@ -35,7 +35,7 @@ export default function Header(props) {
         <ul className="nav-container">
             <li onClick={props.scrollToHome}><a className="nav-link">Home</a></li>
             <li onClick={props.scrollToProjects}><a className="nav-link">Projects</a></li>
-            <li><a className="nav-link">Resume</a></li>
+            <li><a href="https://drive.google.com/file/d/15Apccc8ugKGMzcKda8CyNnYKdtIICM07/view?usp=sharing"className="nav-link">Resume</a></li>
         </ul>
     </header>
   )
