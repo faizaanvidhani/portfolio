@@ -4,8 +4,8 @@ export default function HomeBody() {
         <div className="home-body">
             <p className="home-body-text">
             Hi! I'm Faizaan (he/him/his). I’m a Dallas native with a passion for health technology, computer systems, and 
-            clinical applications of AI. I attended <a className="home-link" href="https://www.brown.edu">Brown University</a>, 
-            where I studied <span className="home-important">neuroscience</span> and <span className="home-important">computer science</span> with 
+            clinical applications of AI. I attend <a className="home-link" href="https://www.brown.edu">Brown University</a>, 
+            where I study <span className="home-important">neuroscience</span> and <span className="home-important">computer science</span> with 
             a focus in <span className="home-important">visual computing</span>. 
             </p>
             <p className="home-body-text">
